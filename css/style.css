@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+ }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.aroww{
+    position: absolute;
+    width: 160;
+    height: 69px;
+    left: 375px;
+    top: 110px;
+    font-weight: 160;
+    font-size: 60px;
+    line-height: 23px;
+    border: 1px;
+    background-position: left center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.title {
+/* Модули курса Веб-верстка */
+
+    /* position: absolute; */
+    width: 1170px;
+    height: 69px;
+    left: 375px;
+    top: 153px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+
+
+    color: #3F2AFF;
+
+
+}
+
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.module {
+    width: calc(50% - 10px);
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    
+}
+
+.module img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.module h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3F2AFF;
+}
+
+.module p {
+    margin-bottom: 10px;
+}
+
+.module .number {
+
+
+    position: absolute;
+    width: 45px;
+    height: 46px;
+    left: 502px;
+    top: 434px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    
+    text-align: right;
+    
+    color: #EAEAEA;
+    }
+
+    .button {
+
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center;
+        padding: 25px 76px;
+        gap: 10px; 
+    
+        position: absolute;
+        width: 274px;
+        height: 70px;
+        left: 50%;
+        top: 1357px;
+        transform: translateX(-50%);
+    
+        border: 2px solid #3F2AFF;
+    
+    }
+.button:hover {
+    background-color: #b9b9b9d8;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
